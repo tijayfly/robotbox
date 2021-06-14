@@ -111,7 +111,7 @@ void mainloop()
 		ip.ki.dwFlags = KEYEVENTF_KEYUP; // KEYEVENTF_KEYUP for key release
 		SendInput(1, &ip, sizeof(INPUT));
 
-		Sleep(500);
+		Sleep(1500);
 		mainloop();
 	}
 	else if ((pf->rpms > upcentfirst) & (pf->gear == 2)) {
