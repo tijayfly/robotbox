@@ -1,5 +1,4 @@
-# robotbox
-An alternative automatic gearbox for Assetto Corsa
+# RobotBox: An alternative automatic gearbox for Assetto Corsa
 
 RobotBox is a standalone gearbox logic program for use with Assetto Corsa. It receives and processes data from AC in realtime, then feeds "change up/down" commands into AC's manual gearbox through keyboard hooks.
 
