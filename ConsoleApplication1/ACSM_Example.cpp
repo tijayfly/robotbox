@@ -145,7 +145,7 @@ void mainloop()
 		mainloop();
 	}
 	else {
-		Sleep(100);
+		Sleep(1500);
 		mainloop();
 	}
 }
@@ -181,16 +181,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	initPhysics();
 	initGraphics();
 	initStatic();
-
-	while (true)
-	{
-		if (GetAsyncKeyState(0x31) != 0) // user pressed 1
-		{
-			cout << ("INIT");
-			mainloop();
-		}
-
-	}
+	cout << ("INIT");
+	mainloop();
 
 	dismiss(m_graphics);
 	dismiss(m_physics);
