@@ -26,4 +26,4 @@ Built using C++ and the AC Shared Memory Interface.
 IMPORTANT! Unlike the default auto box, you will need to shift from N to 1st yourself.
 
 # Additional
-RobotBox has been tested with the Lotus Elise and BMW Z4 road cars. Please feel free to test with other cars, file bug reports, record videos, make PRs etc.
+RobotBox has been tested with the Lotus Elise, Mazda MX-5, Toyota Supra and BMW Z4 road cars. Please feel free to test with other cars, file bug reports, record videos, make PRs etc.
