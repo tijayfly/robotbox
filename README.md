@@ -18,8 +18,7 @@ Built using C++ and the AC Shared Memory Interface.
 - "Automatic Gearbox" must be unchecked.
 
 # Usage
-- Run SharedMemoryExample.exe then press "1" on your keyboard.
-- "INIT" will flash in the console window, to let you know that RobotBox is ready.
+- Run SharedMemoryExample.exe.
 - Load up AC and play as normal.
 - Simply close the application when done.
 
