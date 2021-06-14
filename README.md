@@ -7,17 +7,17 @@ https://youtu.be/_aMLFCIFZnI
 
 Built using C++ and the AC Shared Memory Interface.
 
-# INSTALLATION
+# Installation
 - Download the zip
 - Move the files in "Debug" to a folder of your choice.
 - Unless you want to edit the code, you can safely bin the rest of the downloaded files.
 
-# REQUIRED AC SETTINGS
+# Required AC settings
 - "Shift Up/Down" must be set to the defaults of Space/LCtrl respectively.
 - "Combine with keyboard input" must be checked in the "Advanced" settings for your controller.
 - "Automatic Gearbox" must be unchecked.
 
-# USAGE
+# Usage
 - Run SharedMemoryExample.exe then press "1" on your keyboard.
 - "INIT" will flash in the console window, to let you know that RobotBox is ready.
 - Load up AC and play as normal.
@@ -25,4 +25,5 @@ Built using C++ and the AC Shared Memory Interface.
 
 IMPORTANT! Unlike the default auto box, you will need to shift from N to 1st yourself.
 
+# More info
 RobotBox has been tested with the Lotus Elise and BMW Z4 road cars. Please feel free to test with other cars, file bug reports, record videos, make PRs etc.
