@@ -89,7 +89,7 @@ void mainloop()
 	int onepercent = pfs->maxRpm / 100;
 	int upcent = onepercent * 90;
 	int upcentfirst = onepercent * 95;
-	int downcent = onepercent * 50;
+	int downcent = onepercent * 55;
 	INPUT ip;
 	// Set up a generic keyboard event.
 	ip.type = INPUT_KEYBOARD;
@@ -111,7 +111,7 @@ void mainloop()
 		ip.ki.dwFlags = KEYEVENTF_KEYUP; // KEYEVENTF_KEYUP for key release
 		SendInput(1, &ip, sizeof(INPUT));
 
-		Sleep(1500);
+		Sleep(1000);
 		mainloop();
 	}
 	else if ((pf->rpms > upcentfirst) & (pf->gear == 2)) {
@@ -141,7 +141,11 @@ void mainloop()
 		ip.ki.dwFlags = KEYEVENTF_KEYUP; // KEYEVENTF_KEYUP for key release
 		SendInput(1, &ip, sizeof(INPUT));
 
-		Sleep(100);
+		Sleep(750);
+		mainloop();
+	}
+	else if ((pf->rpms < upcentfirst) & (pf->gear == 2)) {
+		Sleep(750);
 		mainloop();
 	}
 	else {
