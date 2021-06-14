@@ -9,18 +9,18 @@ Built using C++ and the AC Shared Memory Interface.
 
 # Installation
 - Download the zip
-- Move the files in "Debug" to a folder of your choice.
-- Unless you want to edit the code, you can safely bin the rest of the downloaded files.
+- Move the files in "Debug" to a folder of your choice
+- Unless you want to edit the code, you can safely bin the rest of the downloaded files
 
 # Required AC settings
-- "Shift Up/Down" must be set to the defaults of Space/LCtrl respectively.
-- "Combine with keyboard input" must be checked in the "Advanced" settings for your controller.
-- "Automatic Gearbox" must be unchecked.
+- "Shift Up/Down" must be set to the defaults of Space/LCtrl respectively
+- "Combine with keyboard input" must be checked in the "Advanced" settings for your controller
+- "Automatic Gearbox" must be unchecked
 
 # Usage
-- Run SharedMemoryExample.exe.
-- Load up AC and play as normal.
-- Simply close the application when done.
+- Run SharedMemoryExample.exe
+- Load up AC and play as normal
+- Simply close the application when done
 
 IMPORTANT! Unlike the default auto box, you will need to shift from N to 1st yourself.
 
