@@ -23,6 +23,6 @@ Built using C++ and the AC Shared Memory Interface.
 - Load up AC and play as normal.
 - Simply close the application when done.
 
-# IMPORTANT! Unlike the default auto box, you will need to shift from N to 1st yourself.
+IMPORTANT! Unlike the default auto box, you will need to shift from N to 1st yourself.
 
 RobotBox has been tested with the Lotus Elise and BMW Z4 road cars. Please feel free to test with other cars, file bug reports, record videos, make PRs etc.
